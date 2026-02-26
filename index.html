@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>BotFlix - Seu assistente pessoal para encontrar o filme perfeito</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="main-content">
+            <header class="brand-header">
+
+                <div class="container-logo">
+                    <img src="src/images/botflix-robot.jpg" alt="BotFlix Logo" class="robot-image">
+
+                    <h1 class="brand-title">BotFlix</h1>
+                </div>
+
+                <p class="brand-subtitle">Seu assistente pessoal para encontrar o filme perfeito</p>
+
+            </header>
+
+            <section class="search-card">
+                <div class="search-content">
+                    <div class="input-container">
+                        <textarea rows="3" id="mood-textarea" class="mood-textarea"
+                            placeholder="Digite como você está se sentindo ou o que quer assistir..."></textarea>
+
+                    </div>
+
+                    <div class="examples">
+                        <h3 class="examples-title">Exemplos:</h3>
+                        <ul class="examples-list">
+                            <li>Estou me sentindo triste, quero algo leve e engraçado.</li>
+                            <li>Quero assistir um filme de ação com muita adrenalina.</li>
+                            <li>Estou entediado, me sugira um filme de aventura emocionante.</li>
+                        </ul>
+                    </div>
+
+                    <button id="search-button" class="search-button">
+                        <span class="play-icon">&#9654;</span>
+                        Encontrar filmes perfeitos
+                    </button>
+                </div>
+            </section>
+
+            <div id="results" class="results">
+                <h2>Filmes Perfeitos Para Você</h2>
+                <div id="movie" class="movie">
+
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
