@@ -43,14 +43,14 @@ body {
   height: 128px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 0 40px hsla(348, 83%, 47%, 0.4);
+  box-shadow: 0 0 40px hsla(282, 83%, 47%, 0.4);
   animation: float 3s ease-in-out infinite;
 }
 
 /* Brand Title & Subtitle */
 .brand-title {
   margin-bottom: 16px;
-  color: #f20612;
+  color: #bf06f2;
   font-size: 48px;
   font-weight: 700;
 }
@@ -95,7 +95,7 @@ body {
 }
 
 .mood-input:focus {
-  border-color: #e50914;
+  border-color: #9f09e5;
   outline: none;
   box-shadow: 0 0 0 3px rgba(229, 9, 20, 0.1);
 }
@@ -129,7 +129,7 @@ body {
 .search-button {
   width: 100%;
   padding: 16px 32px;
-  background-color: #e50914;
+  background-color: #bf06f2;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -145,9 +145,9 @@ body {
 }
 
 .search-button:hover:not(:disabled) {
-  background-color: #f40612;
+  background-color: #a206cd;
   transform: translateY(-1px);
-  box-shadow: 0 10px 25px rgba(229, 9, 20, 0.3);
+  box-shadow: 0 10px 25px rgba(174, 9, 229, 0.3);
 }
 
 .search-button:disabled {
@@ -192,7 +192,7 @@ body {
 }
 
 .movie-card:hover {
-  border-color: #e50914;
+  border-color: #9809e5;
   transform: translateY(-8px) scale(1.03);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.28);
 }
@@ -240,7 +240,7 @@ body {
 }
 
 .movie-rating {
-  color: #e50914;
+  color: #9409e5;
   font-size: 18px;
   font-weight: 600;
 }
