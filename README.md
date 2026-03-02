@@ -382,6 +382,3 @@ To demonstrate practical capability in:
 
 BotFlix is not just a frontend project.  
 It is an architectural proof-of-concept showcasing **n8n as the central intelligence layer for AI-driven systems**.
-
-
-### 🔁 Fluxo do sistema
