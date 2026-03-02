@@ -71,7 +71,7 @@ async function handleSearch() {
 
   try {
     // Fazer POST para o webhook do N8N
-    const response = await fetch('https://wryan.app.n8n.cloud/webhook/botflix', {
+    const response = await fetch('https://wryan.app.n8n.cloud/webhook-test/botflix', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ userPrompt: mood, language })
